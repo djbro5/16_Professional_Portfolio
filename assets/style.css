@@ -55,7 +55,7 @@ h4, h5{
 }
 
 .bio{
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .picture{
@@ -69,9 +69,7 @@ h4, h5{
     border: 1px solid #054AB8;
 }
 
-.caption{
-    text-align: center;
-}
+
 
 .sticky-footer {
     border-top: 2px solid #000000;
