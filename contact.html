@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets\style.css">
     <title>Contact</title>
 </head>
@@ -29,8 +27,17 @@
             <div class="col-sm-9"style=color:#054AB8><h1>Contact</h1>All enquiries: - please send me a message and I will reply promptly.</div>
             <div class="col-sm-3" ></div>
         </div>
-        <hr>
-            <form>
+        
+        <div class="row">
+          <div class="col-sm-12">
+              <hr class="rule">
+          </div>
+        </div>
+
+            <form action=”mailto:david.bn@bigpond.com”
+            method=”POST”
+            enctype=”multipart/form-data”
+            name=”Email”>
                 <div class="form-group">
                   <label for="FormControlName">Name</label>
                   <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Brown">
@@ -59,6 +66,9 @@
             <h5>Copyright &copy 2019 David Brown</h5>
         </div>
       </footer>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
 </body>
 </html>
